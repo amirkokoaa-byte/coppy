@@ -25,8 +25,15 @@ export interface AccountItem {
   timestamp: number;
 }
 
+export interface GatekeeperAccount {
+  id: string;
+  username: string;
+  passwordHash: string;
+}
+
 export interface AppSettings {
   adminEmail: string;
+  securityEmail: string; // الإيميل القديم المطلوب للتحقق
   viewPasswordHash: string;
   primaryColor: string;
 }
