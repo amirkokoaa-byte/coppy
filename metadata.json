@@ -1,6 +1,6 @@
 {
   "name": "Smart Clipboard Pro",
-  "description": "A smart clipboard manager that uses AI to translate text, check links for safety, extract text from images, and provide quick actions for contacts and emails.",
+  "description": "المساعد الذكي المتكامل لإدارة الحافظة باستخدام تقنيات Gemini للترجمة، فحص الروابط، واستخراج النصوص من الصور.",
   "requestFramePermissions": [
     "camera",
     "clipboard-read"

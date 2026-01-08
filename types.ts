@@ -16,7 +16,17 @@ export interface ClipboardItem {
   };
 }
 
-export interface UserSettings {
-  passwordHash: string;
-  isLocked: boolean;
+export interface AccountItem {
+  id: string;
+  appName: string;
+  platform: 'Facebook' | 'Instagram' | 'Twitter' | 'Other';
+  email: string;
+  password: string;
+  timestamp: number;
+}
+
+export interface AppSettings {
+  adminEmail: string;
+  viewPasswordHash: string;
+  primaryColor: string;
 }
