@@ -1,0 +1,8 @@
+{
+  "name": "Smart Clipboard Pro",
+  "description": "A smart clipboard manager that uses AI to translate text, check links for safety, extract text from images, and provide quick actions for contacts and emails.",
+  "requestFramePermissions": [
+    "camera",
+    "clipboard-read"
+  ]
+}
